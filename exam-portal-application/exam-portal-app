@@ -1,0 +1,29 @@
+2024-08-05 22:33:31.181  INFO 1416 --- [restartedMain] com.prasad.exam.ExamPortalApplication    : Starting ExamPortalApplication using Java 17.0.4.1 on NQMUMLAP0189 with PID 1416 (D:\Spring_Projects\exam-portal-application\target\classes started by NQE00440 in D:\Spring_Projects\exam-portal-application)
+2024-08-05 22:33:31.191  INFO 1416 --- [restartedMain] com.prasad.exam.ExamPortalApplication    : The following 1 profile is active: "dev"
+2024-08-05 22:33:31.307  INFO 1416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-05 22:33:31.307  INFO 1416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-05 22:33:32.455  INFO 1416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 22:33:32.631  INFO 1416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 7 JPA repository interfaces.
+2024-08-05 22:33:33.894  INFO 1416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7777 (http)
+2024-08-05 22:33:33.918  INFO 1416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-05 22:33:33.918  INFO 1416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-08-05 22:33:34.146  INFO 1416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-05 22:33:34.147  INFO 1416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2837 ms
+2024-08-05 22:33:34.543  INFO 1416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 22:33:34.681  INFO 1416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-08-05 22:33:35.095  INFO 1416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-08-05 22:33:35.365  INFO 1416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-05 22:33:36.111  INFO 1416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-05 22:33:36.152  INFO 1416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-08-05 22:33:37.511  INFO 1416 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.prasad.exam.model.LoginAudit (class must be instantiated by Interceptor)
+2024-08-05 22:33:38.157  INFO 1416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-05 22:33:38.172  INFO 1416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 22:33:38.962  WARN 1416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-05 22:33:39.849  INFO 1416 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2024-08-05 22:33:40.554  INFO 1416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-05 22:33:40.649  INFO 1416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7777 (http) with context path ''
+2024-08-05 22:33:40.669  INFO 1416 --- [restartedMain] com.prasad.exam.ExamPortalApplication    : Started ExamPortalApplication in 10.427 seconds (JVM running for 11.689)
+2024-08-05 22:34:33.155  INFO 1416 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-05 22:34:33.211  INFO 1416 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 22:34:33.227  INFO 1416 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-05 22:34:33.264  INFO 1416 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
